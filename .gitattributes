@@ -1,3 +1,6 @@
-/windows/ linguist-vendored
-/linux/ linguist-vendored
-/macos/ linguist-vendored
+*.cpp linguist-detectable=false
+*.cc linguist-detectable=false
+*.h linguist-detectable=false
+/windows/** linguist-detectable=false
+/linux/** linguist-detectable=false
+/macos/** linguist-detectable=false
